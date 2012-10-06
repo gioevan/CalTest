@@ -26,4 +26,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)digitPressed:(id)sender {
+    
+    UIButton *button = (UIButton*) sender;
+    
+    NSLog(@"Digit was Pressed %@", button.titleLabel.text);
+    
+}
 @end

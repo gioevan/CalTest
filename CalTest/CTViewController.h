@@ -10,4 +10,8 @@
 
 @interface CTViewController : UIViewController
 
+- (IBAction)digitPressed:(id)sender;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
 @end
